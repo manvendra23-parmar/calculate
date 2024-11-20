@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+.calc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 200px;
+}
+
+.calc input {
+    grid-column: span 4;
+    padding: 10px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.calc button {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
